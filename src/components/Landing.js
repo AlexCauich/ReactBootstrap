@@ -6,7 +6,9 @@ class Landing extends Component {
         return(
             <Layout>                
                <header className="showcase">
-                    <div className="content-header">
+                    <div className="image-fondo">
+                    </div>
+                    <div className="col-4">
                         <h2>Know the trips we have for you</h2>
                         <p>Sign up if you don't have an account yet</p>
                     </div>
@@ -14,39 +16,41 @@ class Landing extends Component {
 
                 <div className="container">
                     <div className="news-cards">
-                        <div className="flip-card">
-                            <div className="flip-card-inner">
-                                <div className="flip-card-front">
-                                    <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Avatar" />
-                                    <h3>lorem30lkñl lkkklk</h3>
-                                    <p>sd sd skdjwekf oewifn ww oiqw oqnqnir iqjojejiw e8r 8qo8fr q infn9 w</p>
-                                </div>
-                                <div className="flip-card-back">
-                                    <h1>John Doe</h1>
-                                    <p>Architect & Engineer</p>
-                                    <p>We love that guy</p>
-                                    <a href="#"><button className="btn">Learn More</button></a>
 
-                                </div>
+                        <div className="card">
+                            <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
+                            <div className="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p className="card-text">Some alexis estas haciendo todo mal ksksksks</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
                             </div>
                         </div>
-                        <div>
+
+                        <div className="card">
                             <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
-                            <h3>lorem30lkñl lkkklk</h3>
-                            <p>sd sd skdjwekf oewifn ww oiqw oqnqnir iqjojejiw e8r 8qo8fr q infn9 w</p>
-                            <a href="#">Learn More <i className="fas fa-angle-double-right"></i></a>
+                            <div className="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p className="card-text">Some alexis estas haciendo todo mal ksksksks</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
-                        <div>
-                            <img src="https://images.pexels.com/photos/2325307/pexels-photo-2325307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
-                            <h3>lorem30lkñl lkkklk</h3>
-                            <p>sd sd skdjwekf oewifn ww oiqw oqnqnir iqjojejiw e8r 8qo8fr q infn9 w</p>
-                            <a href="#">Learn More <i className="fas fa-angle-double-right"></i></a>
+
+                        <div className="card">
+                            <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
+                            <div className="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p className="card-text">Some alexis estas haciendo todo mal ksksksks</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
-                        <div>
-                            <img src="https://images.pexels.com/photos/5943/fashion-coffee-time-lifestyle.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
-                            <h3>lorem30lkñl lkkklk</h3>
-                            <p>sd sd skdjwekf oewifn ww oiqw oqnqnir iqjojejiw e8r 8qo8fr q infn9 w</p>
-                            <a href="#">Learn More <i className="fas fa-angle-double-right"></i></a>
+
+                        <div className="card">
+                            <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
+                            <div className="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p className="card-text">Some alexis estas haciendo todo mal ksksksks</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
                     </div>
 
@@ -59,29 +63,37 @@ class Landing extends Component {
                     </section>
 
                     <div className="news-cards">
-                        <div>
-                            <img src="https://images.pexels.com/photos/97050/pexels-photo-97050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
-                            <h3>lorem30lkñl lkkklk</h3>
-                            <p>sd sd skdjwekf oewifn ww oiqw oqnqnir iqjojejiw e8r 8qo8fr q infn9 w</p>
-                            <a href="#">Learn More <i className="fas fa-angle-double-right"></i></a>
-                        </div>
-                        <div>
+                        <div className="card">
                             <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
-                            <h3>lorem30lkñl lkkklk</h3>
-                            <p>sd sd skdjwekf oewifn ww oiqw oqnqnir iqjojejiw e8r 8qo8fr q infn9 w </p>
-                            <a href="#">Learn More <i className="fas fa-angle-double-right"></i></a>
+                            <div className="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p className="card-text">Some alexis estas haciendo todo mal ksksksks</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
-                        <div>
-                            <img src="https://images.pexels.com/photos/2325307/pexels-photo-2325307.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
-                            <h3>lorem30lkñl lkkklk</h3>
-                            <p>sd sd skdjwekf oewifn ww oiqw oqnqnir iqjojejiw e8r 8qo8fr q infn9 w</p>
-                            <a href="#">Learn More <i className="fas fa-angle-double-right"></i></a>
+                        <div className="card">
+                            <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
+                            <div className="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p className="card-text">Some alexis estas haciendo todo mal ksksksks</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
-                        <div>
-                            <img src="https://images.pexels.com/photos/5943/fashion-coffee-time-lifestyle.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
-                            <h3>lorem30lkñl lkkklk</h3>
-                            <p>sd sd skdjwekf oewifn ww oiqw oqnqnir iqjojejiw e8r 8qo8fr q infn9 w</p>
-                            <a href="#">Learn More <i className="fas fa-angle-double-right"></i></a>
+                        <div className="card">
+                            <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
+                            <div className="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p className="card-text">Some alexis estas haciendo todo mal ksksksks</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                        <div className="card">
+                            <img src="https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="News 1"/>
+                            <div className="card-body">
+                                <h5 class="card-title">Card Title</h5>
+                                <p className="card-text">Some alexis estas haciendo todo mal ksksksks</p>
+                                <a href="#" className="btn btn-primary">Go somewhere</a>
+                            </div>
                         </div>
                     </div>
 

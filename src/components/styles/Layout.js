@@ -17,69 +17,7 @@ const Layout = styled.header`
         padding-bottom: 250px;
         margin-bottom: 20px;
         color: #ffffff;    
-        
     }
-
-
-
-    .flip-card-front img{
-        width: 100%;
-        height: 180px;
-        border-radius:10px;
-    }
-
-    .flip-card {
-        background-color: transparent;
-        width: 100%;
-        height: 100%;
-        padding-bottom: 250px;
-        margin-bottom:100px;
-        border-radius: 10px;
-        perspective: 1000px; /* Remove this if you don't want the 3D effect */
-        }
-        /* This container is needed to position the front and back side */
-        .flip-card-inner {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        transition: transform 0.8s;
-        transform-style: preserve-3d;
-        }
-
-        /* Do an horizontal flip when you move the mouse over the flip box container */
-        .flip-card:hover .flip-card-inner {
-        transform: rotateY(180deg);
-        }
-
-        /* Position the front and back side */
-        .flip-card-front, .flip-card-back {
-        position: absolute;
-        width: 100%;
-        height: 180px;
-        -webkit-backface-visibility: hidden; /* Safari */
-        backface-visibility: hidden;
-        }
-
-        /* Style the front side (fallback if image is missing) */
-        .flip-card-front {
-        background-color: #000000;
-        color: black;
-        }
-
-        /* Style the back side */
-        .flip-card-back {
-        background-color: #000000;
-        color: white;
-        border-radius:10px; 
-        transform: rotateY(180deg);
-        }
-
-
-
-
-
-
     .btn {
         cursor: pointer;
         display: inline-block;
@@ -104,6 +42,26 @@ const Layout = styled.header`
         width: 100%;
         margin: auto;
     }
+
+    /* bootstrap card*/
+    .card img {
+      border-radius: 10px;
+    }
+
+    .card {
+      border-radius: 10px;
+      box-shadow: 10px 5px 5px #DEDEDE; 
+      cursor:pointer;
+      display:inline-block;
+    }
+
+    .card:hover {
+      opacity: .7;
+    }
+
+  
+
+
     /* News Cards */
     .news-cards {
     display: grid;
@@ -213,7 +171,7 @@ const Layout = styled.header`
   padding-bottom: 20px;
 }
 /* Mobil */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     
   .menu-btn {
     display: block;
@@ -261,6 +219,57 @@ const Layout = styled.header`
     
   }
 }
+
+@media (max-width: 1000px) {
+    
+    .menu-btn {
+      display: block;
+    }
+    .menu-btn:hover {
+      opacity: 0.5;
+    }
+    .nav-main ul.nav-menu {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: #2f3640;
+      width: 50%;
+      height: 100%;
+      border-right: #ccc 1px solid;
+      opacity: 0.9;
+      padding: 30px;
+      transform: translateX(-500px);
+      transition: transform 0.5s ease-in-out;
+    }
+    .nav-main ul.nav-menu li {
+      padding: 20px;
+      border-bottom: #ccc solid 1px;
+      font-size: 14px;
+    }
+    .nav-main ul.nav-menu li:last-child {
+      border-bottom: 0;
+    }
+    .nav-main ul.nav-menu.show {
+      transform: translateX(-20px);
+    }
+    .nav-main ul.nav-menu-right {
+      margin-right: 50px;
+    }
+    .news-cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .cards-banner-one .content,
+    .cards-banner-two .content {
+      width: 80%;
+    }
+    .footer-links .footer-container p{
+      grid-template-columns: repeat(2, 1fr);
+      
+    }
+  }
+
+
 @media (max-width: 500px) {
   .news-cards {
     grid-template-columns: 1fr;
