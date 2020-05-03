@@ -11,13 +11,20 @@ const Layout = styled.header`
         background: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')no-repeat center center/cover;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: left;
+        text-align: left;
         justify-content: flex-end;
         padding-bottom: 250px;
         margin-bottom: 20px;
         color: #ffffff;    
     }
+
+    .showcase p, h3  {
+      margin-left: 10px;
+      font: times new roman;
+    }
+
+
     .btn {
         cursor: pointer;
         display: inline-block;

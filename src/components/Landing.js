@@ -6,12 +6,8 @@ class Landing extends Component {
         return(
             <Layout>                
                <header className="showcase">
-                    <div className="image-fondo">
-                    </div>
-                    <div className="col-4">
-                        <h2>Know the trips we have for you</h2>
-                        <p>Sign up if you don't have an account yet</p>
-                    </div>
+                    <h3>Know the trips we have for you</h3>
+                    <p>Sign up if you don't have an account yet</p>
                 </header>
 
                 <div className="container">
